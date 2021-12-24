@@ -26,5 +26,11 @@ public class ApplicationController {
     {
         return "ELPRO MALL | PUNE ";
     }
+   @GetMapping("/hii")
+    public String hii()
+
+    {
+        return "PUNE";
+    }
 
 }
