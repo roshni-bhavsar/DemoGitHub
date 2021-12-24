@@ -38,4 +38,9 @@ public class ApplicationController {
     {
         return "MH";
     }
+    @GetMapping("/minal")
+    public String minal()
+    {
+        return "nashik";
+    }
 }
