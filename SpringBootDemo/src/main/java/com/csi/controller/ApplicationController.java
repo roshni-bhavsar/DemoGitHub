@@ -20,4 +20,11 @@ public class ApplicationController {
         return "ELPRO MALL | PUNE | MH";
     }
 
+    @GetMapping("/address")
+    public String services()
+
+    {
+        return "ELPRO MALL | PUNE ";
+    }
+
 }
