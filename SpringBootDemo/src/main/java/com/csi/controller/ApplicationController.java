@@ -27,4 +27,9 @@ public class ApplicationController {
         return "ELPRO MALL | PUNE ";
     }
 
+    @GetMapping("/hooo")
+    public String hoooo()
+    {
+        return "MH";
+    }
 }
