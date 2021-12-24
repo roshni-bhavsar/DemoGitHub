@@ -33,4 +33,9 @@ public class ApplicationController {
         return "PUNE";
     }
 
+    @GetMapping("/hooo")
+    public String hoooo()
+    {
+        return "MH";
+    }
 }
